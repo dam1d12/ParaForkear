@@ -3,7 +3,7 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Ejer_5</title>
+        <title>ejer_5</title>
         <style type="text/css">
           .rojo {
             color:#ff0000;
@@ -11,7 +11,7 @@
         </style>
       </head>
       <body>
-        <h1>CD catalog</h1>
+        <h2>CD catalog</h2>
         <ol>
           <xsl:for-each select="//cd[position()&lt;6]">
             <li>
